@@ -1,9 +1,266 @@
-<html>
-  <head>
-    <title>paimoe</title>
-  </head>
-  <body>
-    <h1>hi</h1>
-    <img src="https://placekitten.com/400/400" />
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paimoe is a web developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <style type="text/css">
+      @media (prefers-color-scheme: light) {
+
+        /* Light Mode */
+        :root {
+            --background-color: #ffffff;
+            --text-color: #333333;
+            --card-background: #f8f8f8;
+            --link-color: #007bff;
+            --button-background: #007bff;
+            --button-text-color: #ffffff;
+            --button-hover-background: #0056b3;
+        }
+
+        /* Apply Light Mode Styles */
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        a {
+            color: var(--link-color);
+        }
+
+        .card {
+            background-color: var(--card-background);
+            border: 1px solid #e0e0e0;
+        }
+
+        .button {
+            background-color: var(--button-background);
+            color: var(--button-text-color);
+        }
+
+        .button:hover {
+            background-color: var(--button-hover-background);
+        }
+      }
+    @media (prefers-color-scheme: dark) {
+        /* Dark Mode */
+        /* Dark Mode */
+:root {
+    --background-color: #1a1a1a;
+    --text-color: #f0f0f0;
+    --card-background: #333333;
+    --link-color: #66ccff;
+    --button-background: #444444;
+    --button-text-color: #ffffff;
+    --button-hover-background: #555555;
+}
+
+/* Apply Dark Mode Styles */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+.card {
+    background-color: var(--card-background);
+    border: 1px solid #555555;
+}
+.card-content {
+  background: #fff;
+}
+
+.button {
+    background-color: var(--button-background);
+    color: var(--button-text-color);
+}
+
+.button:hover {
+    background-color: var(--button-hover-background);
+}
+.title {
+  color: var(--text-color);
+}
+    }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Row -->
+    <section class="section">
+        <div class="container">
+            <nav class="level">
+                <div class="level-left">
+                    <div class="level-item">
+                        <h1 class="title">paimoe <span class="has-text-primary">messing around</span></h1>
+                    </div>
+                </div>
+
+                <div class="level-right">
+                    <p class="level-item">
+                      <a href="https://github.com/paimoe" class="button is-primary">
+                        <span class="icon is-small">
+                          <i class="fab fa-github"></i>
+                        </span>
+                        <span>github</span>
+                      </a>
+                    </p>
+                    <p class="level-item">
+                      <a href="//write.paimoe.com" class="button is-info">                      
+                        <span class="icon is-small">
+                          <i class="fas fa-pen"></i>
+                        </span>
+                        <span>occasional writing</span>
+                      </a>
+                    </p>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- 3x3 Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <!-- Grid Item 1 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="rugbybot_thumb.png" alt="rugbybot thumbnail">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4"><a href="https://www.rugbybot.com">RugbyBot</a></p>
+                            <p class="subtitle is-6">Fixtures and Statistics from the world of Rugby.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grid Item 2 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="rugbynews_thumb.png" alt="rugbynews thumbnail">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4"><a href="https://news.rugbybot.com">RugbyNews</a></p>
+                            <p class="subtitle is-6">Summarised news from around the web.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grid Item 3 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="rugbyguide_thumb.png" alt="rugby guide thumbnail">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4"><a href="https://guide.rugbybot.com">The Rugby Guide</a></p>
+                            <p class="subtitle is-6">Simple and straightforward guide for new fans..</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grid Item 4 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="happyteeth_thumb.png" alt="happyteeth logo">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4"><a href="https://www.happyteeth.app">Happy Teeth</a></p>
+                            <p class="subtitle is-6">Aiming for more consistent dental care.</p>
+                        </div>
+                    </div>
+                </div>
+<!-- 
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://via.placeholder.com/300" alt="Placeholder Image 5">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4"><a href="#">Title 5</a></p>
+                            <p class="subtitle is-6">This is a minor description for item 5.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://via.placeholder.com/300" alt="Placeholder Image 6">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4"><a href="#">Title 6</a></p>
+                            <p class="subtitle is-6">This is a minor description for item 6.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://via.placeholder.com/300" alt="Placeholder Image 7">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4"><a href="#">Title 7</a></p>
+                            <p class="subtitle is-6">This is a minor description for item 7.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://via.placeholder.com/300" alt="Placeholder Image 8">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4"><a href="#">Title 8</a></p>
+                            <p class="subtitle is-6">This is a minor description for item 8.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://via.placeholder.com/300" alt="Placeholder Image 9">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4"><a href="#">Title 9</a></p>
+                            <p class="subtitle is-6">This is a minor description for item 9.</p>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+</body>
 </html>
